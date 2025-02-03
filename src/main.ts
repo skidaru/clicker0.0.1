@@ -1,3 +1,4 @@
+
 import Phaser from 'phaser'
 import { scenes } from './scenes'
 import './style.css'
