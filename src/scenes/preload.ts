@@ -18,7 +18,7 @@ export class preload extends Phaser.Scene{
         
     })
 
-    this.load.image('button', '/src/Assets/GUI/button.png')
+    this.load.image('button', '/Assets/button.png')
     }
 
     create(){
