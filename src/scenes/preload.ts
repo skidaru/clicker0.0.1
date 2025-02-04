@@ -1,4 +1,4 @@
-import { button } from "../GUI/button";
+
 
 export class preload extends Phaser.Scene{
     constructor() {
@@ -22,18 +22,7 @@ export class preload extends Phaser.Scene{
     }
 
     create(){
-        const buttonn = new button(
-            this,
-            945,
-            202,
-            'button',
-            () => {
-                console.log('ad');
-                
-            }
-            
-        )
 
-        buttonn.setOrigin(0.5, 0.5)
+        this.scene.start('mainScene')
     }
 }
