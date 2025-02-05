@@ -19,6 +19,8 @@ export class preload extends Phaser.Scene{
     })
 
     this.load.image('button', '/Assets/button.png')
+
+    this.load.atlas('GUI', '/Assets/GUI.png', '/Assets/GUI.json')
     }
 
     create(){

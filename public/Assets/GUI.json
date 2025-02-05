@@ -1,0 +1,68 @@
+{"frames": [
+
+{
+	"filename": "CanBuy.png",
+	"frame": {"x":226,"y":1,"w":182,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":182,"h":77},
+	"sourceSize": {"w":182,"h":77}
+},
+{
+	"filename": "CantBuy.png",
+	"frame": {"x":410,"y":1,"w":182,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":182,"h":77},
+	"sourceSize": {"w":182,"h":77}
+},
+{
+	"filename": "Circle.png",
+	"frame": {"x":117,"y":1,"w":107,"h":107},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":107},
+	"sourceSize": {"w":107,"h":107}
+},
+{
+	"filename": "LowCost.png",
+	"frame": {"x":1,"y":1,"w":35,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":31},
+	"sourceSize": {"w":35,"h":31}
+},
+{
+	"filename": "ProgressBar1.png",
+	"frame": {"x":1,"y":110,"w":723,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":723,"h":25},
+	"sourceSize": {"w":723,"h":25}
+},
+{
+	"filename": "Star.png",
+	"frame": {"x":75,"y":1,"w":40,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":38},
+	"sourceSize": {"w":40,"h":38}
+},
+{
+	"filename": "UpProfit.png",
+	"frame": {"x":38,"y":1,"w":35,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":31},
+	"sourceSize": {"w":35,"h":31}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "GUI.png",
+	"format": "RGBA8888",
+	"size": {"w":725,"h":136},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:fd53be337a412f368b031224df9b1ae1:bf1730d117becaa7656d07cb67dd2c34:914b8138fb9f7ff0fbb814b1cf1d3c98$"
+}
+}
