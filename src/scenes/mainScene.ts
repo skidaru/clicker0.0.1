@@ -13,14 +13,16 @@ export class mainScene extends Phaser.Scene{
         this.createCircleProgressAround()
         this.createCircle()
 
+        this.progressCircles[0].setProgress(0.75)
+
     }  
 
     private createCircleProgressAround() {
         const NUM_OF_CIRCLES = 4;
         const RADIUS_OF_CIRCLES = 55.5;
         const SPACING_BETWEEN_CIRCLES = 34;
-        const START_Y_OF_CIRCLE = 120;
-        const X_CIRCLE = 142
+        const START_Y_OF_CIRCLE = 119.5;
+        const X_CIRCLE = 141.5
 
         for (let i = 0; i < NUM_OF_CIRCLES; i++) {
             const Y_CIRCLE = START_Y_OF_CIRCLE + i * (2 * RADIUS_OF_CIRCLES + SPACING_BETWEEN_CIRCLES);
@@ -39,7 +41,6 @@ export class mainScene extends Phaser.Scene{
         for (let i = 0; i < NUM_OF_CIRCLES; i++) {
             const Y_CIRCLE = START_Y_OF_CIRCLE + i * (2 * RADIUS_OF_CIRCLES + SPACING_BETWEEN_CIRCLES);
             let circleImage = new Image(this, X_CIRCLE, Y_CIRCLE, 'GUI', 'Circle.png');
-            // this.progressCircles.push(circleImage);
         }    
     }
 }
