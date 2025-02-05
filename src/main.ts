@@ -8,6 +8,7 @@ new Phaser.Game({
     type: Phaser.AUTO,
     width: 1366,
     height: 768,
+    backgroundColor: '#22272E',
     title: 'TypeScript Test',
     url: import.meta.env.URL || '',
     version: import.meta.env.VERSION || '0.0.1',
